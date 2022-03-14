@@ -16,3 +16,4 @@ TMessagesProj/jni/third_party/libvpx/source/libvpx/vpx_dsp/x86/libvpx_x86_yasm.a
 TMessagesProj/jni/libvpx/
 TMessagesProj/jni/android-toolchain/
 TMessagesProj/google-services.json
+gradle.properties
