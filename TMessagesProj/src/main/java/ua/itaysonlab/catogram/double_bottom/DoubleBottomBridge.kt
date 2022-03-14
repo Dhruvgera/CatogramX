@@ -1,7 +1,7 @@
 package ua.itaysonlab.catogram.double_bottom
 
 import com.google.android.exoplayer2.util.Log
-import org.nift4.catox.EarlyConfig
+import com.dhruv.catogramx.EarlyConfig
 import org.telegram.messenger.SharedConfig
 import org.telegram.messenger.UserConfig
 import ua.itaysonlab.catogram.CatogramConfig

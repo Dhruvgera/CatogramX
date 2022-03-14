@@ -3,7 +3,7 @@ package ua.itaysonlab.catogram.preferences
 import android.os.Build
 import android.os.Environment
 import android.widget.Toast
-import org.nift4.catox.EarlyConfig
+import com.dhruv.catogramx.EarlyConfig
 import org.telegram.messenger.BuildConfig
 import org.telegram.messenger.BuildVars
 import org.telegram.messenger.LocaleController

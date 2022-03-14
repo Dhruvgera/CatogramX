@@ -1,4 +1,4 @@
-package org.nift4.catox.smoothkb;
+package com.dhruv.catogramx.smoothkb;
 
 import android.graphics.Rect;
 import android.view.View;

@@ -2162,9 +2162,9 @@ public class LaunchActivity extends AppCompatActivity implements  BottomSlideFra
                                             NotificationCenter.getInstance(intentAccount[0]).postNotificationName(NotificationCenter.closeChats);
                                             push_user_id = userId;
                                             String mimeType = cursor.getString(cursor.getColumnIndex(ContactsContract.Data.MIMETYPE));
-                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.nift4.catox.android.call")) {
+                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.com.dhruv.catogramx.android.call")) {
                                                 audioCallUser = true;
-                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.nift4.catox.android.call.video")) {
+                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.com.dhruv.catogramx.android.call.video")) {
                                                 videoCallUser = true;
                                             }
                                         }

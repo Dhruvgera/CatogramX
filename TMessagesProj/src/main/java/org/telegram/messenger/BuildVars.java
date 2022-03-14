@@ -12,7 +12,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
 
-import org.nift4.catox.EarlyConfig;
+import com.dhruv.catogramx.EarlyConfig;
 
 public class BuildVars {
 

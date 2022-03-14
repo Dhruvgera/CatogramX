@@ -102,7 +102,7 @@ import java.util.concurrent.CountDownLatch;
 
 import ua.itaysonlab.catogram.CatogramConfig;
 import ua.itaysonlab.catogram.voicerec.InstantVideoBridge;
-import org.nift4.catox.SaveToDownloadReceiver;
+import com.dhruv.catogramx.SaveToDownloadReceiver;
 
 
 public class MediaController implements AudioManager.OnAudioFocusChangeListener, NotificationCenter.NotificationCenterDelegate, SensorEventListener {

@@ -317,7 +317,7 @@ public class ContactsController extends BaseController {
     public void checkAppAccount() {
         AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
         try {
-            Account[] accounts = am.getAccountsByType("org.nift4.catox");
+            Account[] accounts = am.getAccountsByType("com.dhruv.catogramx");
             systemAccount = null;
             for (int a = 0; a < accounts.length; a++) {
                 Account acc = accounts[a];
@@ -350,7 +350,7 @@ public class ContactsController extends BaseController {
             readContacts();
             if (systemAccount == null) {
                 try {
-                    systemAccount = new Account("" + getUserConfig().getClientUserId(), "org.nift4.catox");
+                    systemAccount = new Account("" + getUserConfig().getClientUserId(), "com.dhruv.catogramx");
                     am.addAccountExplicitly(systemAccount, "", null);
                 } catch (Exception ignore) {
 
@@ -363,7 +363,7 @@ public class ContactsController extends BaseController {
         try {
             systemAccount = null;
             AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
-            Account[] accounts = am.getAccountsByType("org.nift4.catox");
+            Account[] accounts = am.getAccountsByType("com.dhruv.catogramx");
             for (int a = 0; a < accounts.length; a++) {
                 Account acc = accounts[a];
                 boolean found = false;
@@ -439,7 +439,7 @@ public class ContactsController extends BaseController {
                 AndroidUtilities.runOnUIThread(() -> {
                     AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
                     try {
-                        Account[] accounts = am.getAccountsByType("org.nift4.catox");
+                        Account[] accounts = am.getAccountsByType("com.dhruv.catogramx");
                         systemAccount = null;
                         for (int a = 0; a < accounts.length; a++) {
                             Account acc = accounts[a];
@@ -457,7 +457,7 @@ public class ContactsController extends BaseController {
 
                     }
                     try {
-                        systemAccount = new Account("" + getUserConfig().getClientUserId(), "org.nift4.catox");
+                        systemAccount = new Account("" + getUserConfig().getClientUserId(), "com.dhruv.catogramx");
                         am.addAccountExplicitly(systemAccount, "", null);
                     } catch (Exception ignore) {
 
@@ -2075,7 +2075,7 @@ public class ContactsController extends BaseController {
 
         builder = ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI);
         builder.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0);
-        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.org.nift4.catox.android.profile");
+        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.com.dhruv.catogramx.android.profile");
         builder.withValue(ContactsContract.Data.DATA1, user.id);
         builder.withValue(ContactsContract.Data.DATA2, "Telegram Profile");
         builder.withValue(ContactsContract.Data.DATA3, LocaleController.formatString("ContactShortcutMessage", R.string.ContactShortcutMessage, phoneOrName));
@@ -2084,7 +2084,7 @@ public class ContactsController extends BaseController {
 
         builder = ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI);
         builder.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0);
-        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.org.nift4.catox.android.call");
+        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.com.dhruv.catogramx.android.call");
         builder.withValue(ContactsContract.Data.DATA1, user.id);
         builder.withValue(ContactsContract.Data.DATA2, "Telegram Voice Call");
         builder.withValue(ContactsContract.Data.DATA3, LocaleController.formatString("ContactShortcutVoiceCall", R.string.ContactShortcutVoiceCall, phoneOrName));
@@ -2093,7 +2093,7 @@ public class ContactsController extends BaseController {
 
         builder = ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI);
         builder.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0);
-        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.org.nift4.catox.android.call.video");
+        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.com.dhruv.catogramx.android.call.video");
         builder.withValue(ContactsContract.Data.DATA1, user.id);
         builder.withValue(ContactsContract.Data.DATA2, "Telegram Video Call");
         builder.withValue(ContactsContract.Data.DATA3, LocaleController.formatString("ContactShortcutVideoCall", R.string.ContactShortcutVideoCall, phoneOrName));

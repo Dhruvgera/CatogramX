@@ -1,4 +1,4 @@
-package org.nift4.catox;
+package com.dhruv.catogramx;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;

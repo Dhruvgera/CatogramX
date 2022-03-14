@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.nift4.catox.smoothkb
+package com.dhruv.catogramx.smoothkb
 
 import android.view.View
 import androidx.core.view.OnApplyWindowInsetsListener

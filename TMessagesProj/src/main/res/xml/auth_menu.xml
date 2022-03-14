@@ -6,7 +6,7 @@
         android:title="@string/AccountSettings"
         android:summary="">
         <intent android:action="org.telegram.messenger.OPEN_ACCOUNT"
-            android:targetPackage="org.nift4.catox"
+            android:targetPackage="com.dhruv.catogramx"
             android:targetClass="org.telegram.ui.LaunchActivity"/>
     </PreferenceScreen>
 </PreferenceScreen>

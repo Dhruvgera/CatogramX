@@ -121,9 +121,9 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
-import org.nift4.catox.smoothkb.ImeSizeHelper;
-import org.nift4.catox.smoothkb.RootViewDeferringInsetsCallback;
-import org.nift4.catox.smoothkb.TranslateDeferringInsetsAnimationCallback;
+import com.dhruv.catogramx.smoothkb.ImeSizeHelper;
+import com.dhruv.catogramx.smoothkb.RootViewDeferringInsetsCallback;
+import com.dhruv.catogramx.smoothkb.TranslateDeferringInsetsAnimationCallback;
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

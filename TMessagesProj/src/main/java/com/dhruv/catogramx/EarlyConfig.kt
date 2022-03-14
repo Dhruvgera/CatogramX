@@ -1,4 +1,4 @@
-package org.nift4.catox
+package com.dhruv.catogramx
 
 import android.app.Activity
 import android.content.SharedPreferences

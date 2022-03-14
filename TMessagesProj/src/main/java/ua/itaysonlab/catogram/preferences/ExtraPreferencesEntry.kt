@@ -1,6 +1,6 @@
 package ua.itaysonlab.catogram.preferences
 
-import org.nift4.catox.EarlyConfig
+import com.dhruv.catogramx.EarlyConfig
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.R
 import org.telegram.ui.ActionBar.BaseFragment

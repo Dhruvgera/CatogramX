@@ -16,7 +16,7 @@
 
 @file:Suppress("MemberVisibilityCanBePrivate")
 
-package org.nift4.catox.smoothkb
+package com.dhruv.catogramx.smoothkb
 
 import android.os.CancellationSignal
 import android.view.View
